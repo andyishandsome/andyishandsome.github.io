@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Andy's blog</title>
+    <script>
+       function clik(num){
+           var menu=document.getElementById("m"+num);
+           menu.classList.toggle("hide");
+       }
+    </script>
+
+    <style type="text/css">
+        .hide{display:none;}
+    </style>
+</head>
+
+<body>
+    <h1>Andy's blog</h1>
+    <p style="font-size: 12x;">A high school student's notes</p>
+    <hr/>
+
+    <div onclick="clik(1);" style="color: purple">Programming and science</div>
+    <ul id=m1>
+        <li>Science</li>
+        <li>Programming</li>
+        <li>engineer</li>
+    </ul>
+
+    <div onclick="clik(2);" style="color: purple">Thinking and experience</div>
+    <ul id=m2>
+        <li>education</li>
+        <li>social issue</li>
+        <li>books and movies reports</li>
+    </ul>
+
+    <div onclick="clik(3)" style="color: purple;">others</div>
+    <ul id=m3> 
+        <li>the progress of learning</li>
+        <li>achivement</li>
+    </ul>
+        
+    <div><a href="about me.html">About me</a></div>
+
+</body>
+</html>
