@@ -129,6 +129,49 @@
 </description>
         </item>
         <item>
+        <title></title>
+        <link>https://andyishandsome.github.io/post/%E9%9F%B3%E5%83%8F%E8%97%9D%E8%A1%93%E4%BD%9C%E5%93%81%E7%B4%80%E9%8C%84/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://andyishandsome.github.io/post/%E9%9F%B3%E5%83%8F%E8%97%9D%E8%A1%93%E4%BD%9C%E5%93%81%E7%B4%80%E9%8C%84/</guid>
+        <description>&lt;h1 id=&#34;初次嘗試音像藝術---紀錄&#34;&gt;初次嘗試音像藝術 - 紀錄&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;契機&#34;&gt;契機&lt;/h3&gt;
+&lt;p&gt;2023年十月底，我參加了C-lab「Live Coding 研究推廣計劃」所舉辦的&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/events/1987520751625678/2000608376983582/?event_time_id=2000608376983582&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;工作坊&lt;/a&gt;，活動很仔細的介紹了Hydrao video synth這個工具，可以透過程式在網頁中即時的創造複雜多變、有趣的圖樣。不像使用p5.js創作演算藝術時一樣，需要一步步從零開始思考如何設計，Hydra Video Synth相對簡單非常多，很多地方只要一行函式就解決了(例如perlin-noise)，比較不需要去仔細思考技術細節，也因此可以放更多心力在嘗試不同的組合，畫面的效果。蠻推薦大家玩玩看的，可以參考&lt;a class=&#34;link&#34; href=&#34;https://hydra-book.glitch.me/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HYDRA BOOK&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://hydra.ojack.xyz/functions/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hydra functions&lt;/a&gt;這兩個網站進行學習。&lt;!-- raw HTML omitted --&gt;
+附上幾個之前練習的範例:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;作品製作&#34;&gt;作品製作&lt;/h3&gt;
+&lt;p&gt;工作坊結束之後，我無聊時就會去網站亂試、亂玩不同函式，也興起了想結合音樂創作一個簡單作品的念頭。經過幾天的努力後生成了這個作品，製作流程大致如下:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;flowchart LR
+    a[&amp;#34;隨便嘗試
+    找大概分為&amp;#34;]
+    
+    b[&amp;#34;使用Ableton live
+    創作配樂&amp;#34;]
+
+    c[&amp;#34;根據音樂設計不同片段畫面&amp;#34;]
+
+    d[&amp;#34;錄製電腦畫面&amp;#34;]
+    
+    e[&amp;#34;剪輯
+    注意有沒有對到音樂
+    &amp;#34;]
+    a --&amp;gt; b --&amp;gt; c --&amp;gt; d --&amp;gt; e
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;遇到的問題&#34;&gt;遇到的問題&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;錄影使用obs錄影時，電腦沒有獨立GPU，常常會非常卡，就算跑去學校電腦教室錄影檔案也非常大&lt;/li&gt;
+&lt;li&gt;對剪輯軟體還不太熟悉，很多畫面轉換處沒有對好點&lt;/li&gt;
+&lt;li&gt;視覺方面的變化、美感度還不夠，可以再修仔細一點&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;總之就是一個還蠻草率的實驗、嘗試，在製作的時候也很常去反思說這種偏意象的作品真的是自己感興趣的嗎? 藝術到底有甚麼目的，一定要具備深刻的意義嗎? 也因此才會取下這樣一個有點刻意，矯揉做作的標題。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Search</title>
         <link>https://andyishandsome.github.io/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
