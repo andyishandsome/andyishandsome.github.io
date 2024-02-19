@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>p5.js on Levi-Strauss</title>
-        <link>https://andydavinci.github.io/tags/p5.js/</link>
+        <link>https://andyishandsome.github.io/tags/p5.js/</link>
         <description>Recent content in p5.js on Levi-Strauss</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 20 Oct 2023 14:43:26 +0800</lastBuildDate><atom:link href="https://andydavinci.github.io/tags/p5.js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 20 Oct 2023 14:43:26 +0800</lastBuildDate><atom:link href="https://andyishandsome.github.io/tags/p5.js/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>P5.js 匯出成影片/圖片 教學</title>
-        <link>https://andydavinci.github.io/post/p5.js%E9%8C%84%E5%BD%B1%E6%95%99%E5%AD%B8/</link>
+        <link>https://andyishandsome.github.io/post/p5.js%E9%8C%84%E5%BD%B1%E6%95%99%E5%AD%B8/</link>
         <pubDate>Fri, 20 Oct 2023 14:43:26 +0800</pubDate>
         
-        <guid>https://andydavinci.github.io/post/p5.js%E9%8C%84%E5%BD%B1%E6%95%99%E5%AD%B8/</guid>
+        <guid>https://andyishandsome.github.io/post/p5.js%E9%8C%84%E5%BD%B1%E6%95%99%E5%AD%B8/</guid>
         <description>&lt;h1 id=&#34;p5js-匯出成影片圖片-教學&#34;&gt;P5.js 匯出成影片/圖片 教學&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;P5.jS是一個用來進行creative coding創作的javascript套件，本文將以&lt;a class=&#34;link&#34; href=&#34;https://github.com/tetunori/p5MovRec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -24,7 +24,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;點擊畫面右上角輸出圖式，並按「RECORD」。
-&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/00.png&#34;
+&lt;img src=&#34;https://andyishandsome.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/00.png&#34;
 	
 	
 	
@@ -35,7 +35,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;選擇品質、錄製時間後，按下錄製
-&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/01.png&#34;
+&lt;img src=&#34;https://andyishandsome.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/01.png&#34;
 	
 	
 	
@@ -49,7 +49,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;將Mode選擇為中間的HTML/CSS/JS
-&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/02.png&#34;
+&lt;img src=&#34;https://andyishandsome.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/02.png&#34;
 	
 	
 	
@@ -70,7 +70,7 @@
 &lt;p&gt;設定
 在function setup()中加入:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-code=javascript&#34; data-lang=&#34;code=javascript&#34;&gt;myP5MovRec = new P5MovRec();
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/03.png&#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://andyishandsome.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/03.png&#34;
 	
 	
 	
@@ -101,7 +101,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;匯出圖片&#34;&gt;匯出圖片&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/04.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://andyishandsome.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/04.png&#34;
 	
 	
 	
