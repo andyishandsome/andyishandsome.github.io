@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>p5.js on Levi-Strauss</title>
+        <link>https://andydavinci.github.io/tags/p5.js/</link>
+        <description>Recent content in p5.js on Levi-Strauss</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 20 Oct 2023 14:43:26 +0800</lastBuildDate><atom:link href="https://andydavinci.github.io/tags/p5.js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>P5.js 匯出成影片/圖片 教學</title>
+        <link>https://andydavinci.github.io/post/p5.js%E9%8C%84%E5%BD%B1%E6%95%99%E5%AD%B8/</link>
+        <pubDate>Fri, 20 Oct 2023 14:43:26 +0800</pubDate>
+        
+        <guid>https://andydavinci.github.io/post/p5.js%E9%8C%84%E5%BD%B1%E6%95%99%E5%AD%B8/</guid>
+        <description>&lt;h1 id=&#34;p5js-匯出成影片圖片-教學&#34;&gt;P5.js 匯出成影片/圖片 教學&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;P5.jS是一個用來進行creative coding創作的javascript套件，本文將以&lt;a class=&#34;link&#34; href=&#34;https://github.com/tetunori/p5MovRec&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;該文&lt;/a&gt;作為參考示範使用OpenProcessing這個主流的線上編輯器輸出影片。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;匯出影片&#34;&gt;匯出影片&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;方法一-使用內建功能錄影&#34;&gt;方法一 使用內建功能錄影**&lt;/h3&gt;
+&lt;p&gt;簡單快速，缺點為只能錄製不超過15秒的影片。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;點擊畫面右上角輸出圖式，並按「RECORD」。
+&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/00.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選擇品質、錄製時間後，按下錄製
+&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/01.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;方法二&#34;&gt;方法二&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;將Mode選擇為中間的HTML/CSS/JS
+&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/02.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;匯入library&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-code=html&#34; data-lang=&#34;code=html&#34;&gt;&amp;lt;script src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+
+在上面這行後面加入:
+
+&amp;lt;script src=&amp;#34;https://tetunori.github.io/p5MovRec/dist/1.0.0/basic/p5MovRec.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;```
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定
+在function setup()中加入:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-code=javascript&#34; data-lang=&#34;code=javascript&#34;&gt;myP5MovRec = new P5MovRec();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/03.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定開始錄影，結束錄影方式:
+範例外按下數字1鍵時開始錄影，按下2時結束錄影，如果需要更改按鍵的方式可    以去細查「keycode」。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-code&#34; data-lang=&#34;code&#34;&gt;function keyPressed() {
+  switch (keyCode) {
+    case 49: //1: Start record
+      myP5MovRec.startRec();
+      break;
+    case 50: //2: Stop record
+      myP5MovRec.stopRec();
+      break;
+    default:
+      break;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用線上工具，將webm檔轉為mp4檔&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;匯出圖片&#34;&gt;匯出圖片&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/04.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
